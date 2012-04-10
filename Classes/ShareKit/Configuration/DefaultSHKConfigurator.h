@@ -53,7 +53,9 @@
 - (NSString*)vkontakteAppId;
 - (NSString*)facebookAppId;
 - (NSString*)facebookLocalAppId;
+- (NSArray*)facebookListOfPermissions;
 - (NSString*)readItLaterKey;
+- (NSNumber*)forcePreIOS5TwitterAccess;
 - (NSString*)twitterConsumerKey;
 - (NSString*)twitterSecret;
 - (NSString*)twitterCallbackUrl;
@@ -82,6 +84,7 @@
 - (NSString*)modalPresentationStyle;
 - (NSString*)modalTransitionStyle;
 - (NSNumber*)maxFavCount;
+- (NSNumber*)autoOrderFavoriteSharers;
 - (NSString*)favsPrefixKey;
 - (NSString*)authPrefix;
 - (NSString*)sharersPlistName;
